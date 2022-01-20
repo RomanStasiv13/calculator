@@ -5,6 +5,6 @@ from controller import Control
 
 app = QApplication([])
 window = QMainWindow()
-c = Control(window)
+controller = Control(window)
 app.exec_()
 
